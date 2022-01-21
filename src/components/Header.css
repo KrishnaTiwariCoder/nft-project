@@ -1,0 +1,67 @@
+.header {
+  color: #fff;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.punkLogo {
+  width: 200px;
+}
+
+.header > div {
+  margin: 10px;
+}
+
+.search-container {
+  background-color: #1c1c1c;
+  height: 50px;
+  flex: 1;
+  display: flex;
+  border-radius: 50px;
+  align-items: center;
+}
+.search-icon-container {
+  margin: 10px;
+}
+
+.search-input {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: white;
+  flex: 1;
+  font-size: 16px;
+}
+
+.header-items {
+  display: flex;
+  color: #a1a5b0;
+}
+
+.header-items > p {
+  margin: 10px;
+}
+
+.theme-switch-container {
+  border-radius: 50px;
+  /* height: 60px;
+  width: 60px; */
+  background: #1c1c1e;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  object-fit: contain;
+  display: flex;
+}
+.theme-switch-logo {
+  /* transform: scale(0.44); */
+  height: 25px;
+}
+.login-button {
+  background: linear-gradient(to right, #59f9b7, #66feea);
+  color: black;
+  padding: 15px 40px;
+  border-radius: 20px;
+}
